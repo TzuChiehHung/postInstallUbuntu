@@ -5,5 +5,6 @@ sudo apt-get -y upgrade
 sudo apt-get -y install \
 	git\
 	vim\
-	openssh-server
+	openssh-server\
+	jq
 
