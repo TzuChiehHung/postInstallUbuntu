@@ -14,5 +14,7 @@ echo '# pyenv' >> ~/.bashrc
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-source ~/.bash_profile
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+
+source ~/.bashrc
 
