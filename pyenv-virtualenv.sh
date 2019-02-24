@@ -5,7 +5,10 @@ sudo apt-get -y install \
 	libssl-dev\
 	libbz2-dev\
 	libreadline-dev\
-	libsqlite3-dev
+	libsqlite3-dev\
+	python-tk\
+	python3-tk\
+	tk-dev
 
 curl https://pyenv.run | bash
 
