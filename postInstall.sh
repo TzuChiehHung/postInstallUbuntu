@@ -3,9 +3,5 @@ sudo apt-get update
 sudo apt-get -y upgrade
 
 sudo apt-get -y install \
-	git\
-	vim\
-	openssh-server\
-	jq\
-	curl
+	git wget vim curl openssh-server
 

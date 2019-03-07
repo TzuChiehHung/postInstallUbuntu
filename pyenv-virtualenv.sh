@@ -1,14 +1,10 @@
 #!/usr/bin/env bash
 
 sudo apt-get -y install \
-	curl\
-	libssl-dev\
-	libbz2-dev\
-	libreadline-dev\
-	libsqlite3-dev\
-	python-tk\
-	python3-tk\
-	tk-dev
+	make build-essential libssl-dev zlib1g-dev libbz2-dev \
+	libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+	xz-utils libffi-dev liblzma-dev python-openssl git \
+	python-tk python3-tk tk-dev
 
 curl https://pyenv.run | bash
 
