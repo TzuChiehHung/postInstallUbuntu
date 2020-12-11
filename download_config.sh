@@ -4,6 +4,8 @@ cd ~
 # inputrc
 wget https://gist.githubusercontent.com/TzuChiehHung/48016ea4181cfdd10ecf8925d2283b44/raw/d29d189a1b57c3b71df75e71db73222105dfa0f7/.inputrc
 
+bind -f  ~/.inputrc
+
 # gitconfig
 wget https://gist.githubusercontent.com/TzuChiehHung/ab0e26a51dd77fe0f79b9e51485d17c1/raw/1e13221f2147adfad082f35df253fc4c7dc70f75/.gitconfig
 
